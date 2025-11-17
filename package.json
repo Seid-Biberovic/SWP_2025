@@ -1,0 +1,16 @@
+{
+  "name": "swp_2025",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "6.18.0",
+    "@faker-js/faker": "10.1.0"
+  },
+  "devDependencies": {
+    "prisma": "6.18.0"
+  },
+  "scripts": {
+    "prisma:generate": "prisma generate --schema=2025-11-03/schema.prisma"
+  }
+}
