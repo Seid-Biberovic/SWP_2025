@@ -11,6 +11,10 @@
     "prisma": "6.18.0"
   },
   "scripts": {
-    "prisma:generate": "prisma generate --schema=2025-11-03/schema.prisma"
+    "prisma:generate": "prisma generate --schema=2025-11-03/schema.prisma",
+    "seed:node": "node ./seed.node.js",
+    "seed:deno": "deno run --allow-read --allow-net ./seed.ts",
+    "test:deno": "deno test",
+    "prepare": "npx prisma generate --schema=2025-11-03/schema.prisma"
   }
 }
